@@ -1,0 +1,35 @@
+.chat-receiver {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 25px;
+  margin: 15px 0;
+  .chat-to {
+    margin-right: 5px;
+  }
+  
+}
+.chat-receiver-dropdown-menu{
+  .ant-dropdown-menu-item {
+    padding: 10px 30px;
+    position: relative;
+    .anticon-check {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+    }
+  }
+  .ant-dropdown-menu-item-group-title {
+    font-weight: 700;
+    color: #000;
+  }
+  .chat-receiver-item-affix{
+    color:#333;
+    margin-left: 5px;
+  }
+}
+
+.chat-send-file-input{
+  display: none;
+}
