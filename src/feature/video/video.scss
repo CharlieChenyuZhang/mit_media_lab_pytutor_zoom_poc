@@ -2,8 +2,10 @@
   position: relative;
   padding: 5vh 0 10vh;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
+  // FIXME: the width and height of the whole video is customizable
+  margin: 0 auto;
+  max-width: 800px;
+  max-height: 800px;
   background-color: #000;
   display: flex;
   overflow-x: hidden;

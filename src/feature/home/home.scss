@@ -19,7 +19,6 @@
   border-color: #747487;
 }
 
-
 .navdoc {
   flex-grow: 1;
 }
@@ -28,7 +27,6 @@
   margin-right: 2rem;
 }
 
-
 .navdoc span {
   margin: 0 10px 0 0;
   padding-left: 1rem;
@@ -36,11 +34,8 @@
   border-color: #747487;
 }
 
-
-
 .home {
-  padding-top: 10vh;
-  h1{
+  h1 {
     font-size: 32px;
     margin-bottom: 20px;
   }
@@ -48,10 +43,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    .entry-item{
+    .entry-item {
       margin: 0 20px 50px 0;
       .ant-card-cover {
-        padding-top:20px
+        padding-top: 20px;
       }
     }
   }

@@ -10,7 +10,7 @@ import React, {
 } from 'react';
 import classnames from 'classnames';
 import _ from 'lodash';
-import { RouteComponentProps } from 'react-router-dom';
+import { withRouter, RouteComponentProps } from 'react-router-dom';
 import { type VideoPlayerContainer, type VideoPlayer, VideoQuality } from '@zoom/videosdk';
 import ZoomContext from '../../context/zoom-context';
 import ZoomMediaContext from '../../context/media-context';
@@ -109,7 +109,7 @@ const VideoContainer: React.FunctionComponent<RouteComponentProps> = (props) => 
   );
 
   return (
-    <div className="viewport" style={{ height: 'auto', width: 'auto', minHeight: '100vh' }}>
+    <div className="viewport">
       <ShareView ref={shareViewRef} onRecieveSharingChange={setIsRecieveSharing} />
       <div
         className={classnames('video-container', 'video-container-attech', {
@@ -175,4 +175,4 @@ const VideoContainer: React.FunctionComponent<RouteComponentProps> = (props) => 
     </div>
   );
 };
-export default VideoContainer;
+export default withRouter(VideoContainer);

@@ -1,11 +1,11 @@
 import { getExploreName } from '../utils/platform';
-
+// FIXME:sdkKey and sdkSecret needs to be replaced with the real values
 export const devConfig = {
-  sdkKey: '',
-  sdkSecret: '',
+  sdkKey: 'BjWiRfuKSvmoXHOTSW1K9g',
+  sdkSecret: 'cFXPUkh1J4iEluw1TUbNDrUDBfn0uo8AhDcH',
   webEndpoint: 'zoom.us', // zfg use www.zoomgov.com
-  topic: '',
-  name: `${getExploreName()}-${Math.floor(Math.random() * 1000)}`,
+  topic: 'MIT media lab Zoom PoC',
+  name: `${getExploreName()}-${Math.floor(Math.random() * 1000)}`, // user name displayed on screen
   password: '',
   signature: '',
   sessionKey: '',

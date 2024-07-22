@@ -1,7 +1,3 @@
-# mit_media_lab_pytutor_zoom_poc
-pytutor zoom poc
-
-
 # Zoom Video SDK web sample
 
 Use of this sample app is subject to our [Terms of Use](https://explore.zoom.us/en/video-sdk-terms/).
@@ -30,13 +26,13 @@ To get started, clone the repo:
 
 1. Open the `src/config/dev.ts` file and enter required session values for the variables:
 
-   | Key                   | Value Description |
-   | -----------------------|-------------|
-   | `sdkKey`     | Your Video SDK Key. Required. |
-   | `sdkSecret`  | Your Video SDK Secret. Required. |
-   | `topic`      | Required, a session name of your choice or the name of the session you are joining. |
-   | `name`       | Required, a name for the participant. |
-   | `password`   | Required, a session passcode of your choice or the passcode of the session you are joining. |
+   | Key         | Value Description                                                                           |
+   | ----------- | ------------------------------------------------------------------------------------------- |
+   | `sdkKey`    | Your Video SDK Key. Required.                                                               |
+   | `sdkSecret` | Your Video SDK Secret. Required.                                                            |
+   | `topic`     | Required, a session name of your choice or the name of the session you are joining.         |
+   | `name`      | Required, a name for the participant.                                                       |
+   | `password`  | Required, a session passcode of your choice or the passcode of the session you are joining. |
 
    Example:
 
@@ -69,13 +65,16 @@ To get started, clone the repo:
 For the full list of features and event listeners, as well as additional guides, see our [Video SDK docs](https://developers.zoom.us/docs/video-sdk/web/).
 
 ## Use ZFG(Zoom For Government). You need apply new sdk key for [ZFG](https://marketplace.zoomgov.com/).
+
 ### option1 change package.json and use zfg specific version
+
 ```
 "@zoom/videosdk": "1.10.8-zfg",
 zmClient.init('en-US', 'Global');
 ```
 
-### option2 change dev.conf and use ZFG [init](https://marketplacefront.zoom.us/sdk/custom/web/modules/VideoClient.html#init) option [webEndpoint](https://marketplacefront.zoom.us/sdk/custom/web/interfaces/InitOptions.html) 
+### option2 change dev.conf and use ZFG [init](https://marketplacefront.zoom.us/sdk/custom/web/modules/VideoClient.html#init) option [webEndpoint](https://marketplacefront.zoom.us/sdk/custom/web/interfaces/InitOptions.html)
+
 ```
 zmClient.init('en-US', `https://source.zoomgov.com/videosdk/1.10.8/lib`, {
    webEndpoint: "www.zoomgov.com",
@@ -85,8 +84,3 @@ zmClient.init('en-US', `https://source.zoomgov.com/videosdk/1.10.8/lib`, {
 ## Need help?
 
 If you're looking for help, try [Developer Support](https://devsupport.zoom.us) or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://explore.zoom.us/docs/en-us/developer-support-plans.html) plans.
-
-
-
-
-
