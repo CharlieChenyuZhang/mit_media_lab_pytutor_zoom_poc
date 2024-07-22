@@ -2,6 +2,9 @@
 
 This PoC is built on the [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/)
 
+<img width="1728" alt="Screenshot 2024-07-22 at 8 49 50 AM" src="https://github.com/user-attachments/assets/38910563-aaee-40e2-ab16-1c3a7da55c4a">
+
+
 # File explanation
 
 To @parker:
