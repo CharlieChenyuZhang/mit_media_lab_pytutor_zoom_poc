@@ -1,6 +1,6 @@
 # Description
 
-This PoC is built on the [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/
+This PoC is built on the [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/)
 
 # File explanation
 
