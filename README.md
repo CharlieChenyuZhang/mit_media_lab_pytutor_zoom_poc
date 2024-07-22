@@ -1,16 +1,6 @@
-# Zoom Video SDK web sample
+# description
 
-Use of this sample app is subject to our [Terms of Use](https://explore.zoom.us/en/video-sdk-terms/).
-
-The [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/) enables you to build custom video experiences on a webpage with Zoom's core technology through a highly optimized WebAssembly module.
-
-![Zoom Video SDK](./public/images/videosdk.gif)
-
-## Installation
-
-To get started, clone the repo:
-
-`$ git clone https://github.com/zoom/videosdk-web-sample.git`
+This PoC is built on the [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/).
 
 ## Setup
 
